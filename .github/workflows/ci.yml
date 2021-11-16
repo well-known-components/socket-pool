@@ -18,13 +18,13 @@ jobs:
         with:
           node-version: 16.x
       - name: install
-        run:  npm install
-      - name: build
-        run:  make build
-      - name: test
-        run:  make test
+        run:  npm ci
       - name: lint
         run:  make lint
+      - name: test
+        run:  make test
+      - name: build
+        run:  make build
       - name: Publish
         uses: menduz/oddish-action@master
         with:

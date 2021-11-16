@@ -15,6 +15,6 @@ build:
 	./node_modules/.bin/api-extractor run $(LOCAL_ARG) --typescript-compiler-folder ./node_modules/typescript
 
 lint:
-	eslint . --ext .ts --fix
+	node_modules/.bin/eslint . --ext .ts
 
 .PHONY: build test
