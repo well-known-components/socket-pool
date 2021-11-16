@@ -15,10 +15,6 @@
   "bugs": {
     "url": "https://github.com/decentraland/socket-pool/issues"
   },
-  "prettier": {
-    "printWidth": 120,
-    "semi": false
-  },
   "homepage": "https://github.com/decentraland/socket-pool#readme",
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.0",
